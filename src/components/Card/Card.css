@@ -1,0 +1,21 @@
+.container{
+	position: relative;
+}
+.center{
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	color: white;
+}
+img{
+	height: 650px;
+	width: 100%;
+	opacity: 1;
+	border: 0;
+}
+.result{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	color: orange;
+}

@@ -1,0 +1,23 @@
+video{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.onTop{
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center{
+	position: abolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
