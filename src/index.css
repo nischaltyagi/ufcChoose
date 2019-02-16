@@ -11,9 +11,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   min-width: 100%;
   min-height: 100%;
+/*  Uncomment below code for background 
   background-image: url("back.jpg");
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-repeat: no-repeat; 
   background-size: cover;
+*/
 
 }
 
