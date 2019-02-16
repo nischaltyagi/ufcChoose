@@ -4,8 +4,8 @@ import './Card.css'
 const Card = ({fighter,img,onButtonClick,id}) => {
 		if(id === "winner"){
 			return(
-			<div className='container dib w-50'>
-			<img alt ='fighter' src={img} height="100%"/>
+			<div className='container dib w-50 mt4 mb4 pa4'>
+				<img alt ='fighter' src={img} className='br4'/>
 			<div className="f1"> 
 				<p className="result b ">Winner</p>
 			</div>
@@ -13,8 +13,8 @@ const Card = ({fighter,img,onButtonClick,id}) => {
 		}
 		else if(id === "looser"){
 		    return (
-		    <div className='container dib w-50'>
-			<img alt ='fighter' src={img} height="100%"/>
+		    <div className='container dib w-50 mt4 mb4 pa4'>
+			<img alt ='fighter' src={img} className='br4'/>
 			<div className="f1"> 
 				<p className="result b">Looser</p>
 			</div>
@@ -22,8 +22,8 @@ const Card = ({fighter,img,onButtonClick,id}) => {
 		}
 		else{
 		    return (
-		    <div className='container dib w-50'>
-			<img alt ='fighter' src={img} height="100%"/>
+		    <div className='container dib w-50 mt4 mb4 pa4 '>
+			<img alt ='fighter' src={img} className='br4'/>
 			<div className="center f2"> 
 				<p >{fighter.name}</p>
 				<p >{fighter.record}</p>

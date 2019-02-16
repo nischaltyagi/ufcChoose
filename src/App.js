@@ -3,7 +3,7 @@ import './App.css';
 import 'tachyons';
 import {Fighters} from './components/Event/fighter';
 import Card from './components/Card/Card';
-import UfcAPI from 'ufc-api';
+//import UfcAPI from 'ufc-api';
 
 class App extends Component {
   constructor(props) {
@@ -66,13 +66,13 @@ class App extends Component {
 					id="looser"/>
 				<div className='beech f2 dib'>
 					<p  onClick={this.onNextClick}
-						className="b f6 br-pill ph5 pv3 dib white bg-dark-red pointer">
+						className="b f6 ph5 pv3 dib white bg-dark-red pointer">
 						NEXT
 					</p>
 					{
 				num >= 2 ? 
 				<p  onClick={this.onBackClick}
-					className="b f6 br-pill ph5 pv3 dib white bg-dark-red pointer">
+					className="b f6 ph5 pv3 dib white bg-dark-red pointer" >
 					BACK
 				</p>:
 				<div></div>
@@ -95,12 +95,12 @@ class App extends Component {
 					id="winner"/>
 			<div className='beech'>
 				<p 	onClick={this.onNextClick}
-					className="b f6 br-pill ph5 pv3 dib white bg-dark-red pointer">
+					className="b f6 ph5 pv3 dib white bg-dark-red pointer">
 					NEXT
 				</p>{
 				num >= 2 ? 
 				<p 	onClick={this.onBackClick}
-					className="b f6 br-pill ph5 pv3 dib white bg-dark-red pointer">
+					className="b f6 ph5 pv3 dib white bg-dark-red pointer">
 					BACK
 				</p>:
 				<div></div>

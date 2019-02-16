@@ -11,6 +11,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   min-width: 100%;
   min-height: 100%;
+  background-image: url("back.jpg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+
 }
 
 code {
